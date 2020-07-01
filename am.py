@@ -7,7 +7,7 @@ save_path = dirname(__file__)[ : -2]
 propertiesFolder_path = save_path + "Properties"
 
 # Example of used
-user_text = tools.readProperty(propertiesFolder_path, 'AM', 'user_text=')
+# user_text = tools.readProperty(propertiesFolder_path, 'AM', 'user_text=')
 
 debug_mode = True
 
