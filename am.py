@@ -68,6 +68,8 @@ def tryToCorrectProblem(contact_id, user_name, src_path) :
 
     # Look if for BINDA everything is also ok (DB Part)
 
+    # Open the file with the info
+    tools.openFile(src_path)
 
 def AM_site(contact_id, user_name, src_path) :
     print('contact_id : ' +contact_id)
